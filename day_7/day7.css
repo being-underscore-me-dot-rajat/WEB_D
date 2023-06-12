@@ -1,0 +1,15 @@
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.kitty{
+    position:fixed;
+    bottom:50px;
+}
+
+.family{
+    position:relative;
+    left:520px;
+}
