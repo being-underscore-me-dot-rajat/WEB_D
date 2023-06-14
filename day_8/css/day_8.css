@@ -1,0 +1,137 @@
+/*Define the global or root variables*/
+:root{
+    --primaryColor :#394867;
+    --backgroundColor :#F1F6F9;
+    --primaryAccentColor :#212A3E;
+    --secondaryColor:#9BA4B5;
+    --whiteColor:white;
+    --blaclColor:#222222;
+    --primaryFont:"Open-Sans",Sans-serif;
+    --cursive:"Lobster",cursive;
+    --secondaryfont:"Roboto Condensed",secondary;
+    --navbarheight:3rem;
+}
+
+.navigation{
+    background-color: var(--backgroundColor);
+    height:var(--navbarheight);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    height:var(--navbarheight);
+    padding:1px 20px;
+    width:7rem;
+    align-items: center;
+}
+
+.logoimage{
+    height:3rem;
+    margin-bottom: 8px;
+}
+
+.logoimage:hover{
+    height:3.2rem;
+}
+
+.contactimage{
+    height:2rem;
+    padding:8px;
+    margin-right: 20px;
+}
+
+.contactimage:hover{
+    height:2.1rem;
+}
+
+.menuitems{
+    flex-grow: 2;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.menuitem{
+    margin-left: 80px;
+    padding: 80px;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.logotitle{
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+body{
+    background-color: var(--primaryAccentColor);
+    color:var(--primaryColor);
+    font-family:var(--primaryFont);
+}
+
+/*Banner*/
+.bannerpic{
+    height:20rem;
+    border-radius: 100%;
+    padding-right: 50px;
+}
+
+.banner{
+    display:flex;
+    height:450px;
+    background: linear-gradient(235deg,rgb(207, 192, 255),black);
+    filter:drop-shadow(0px 2px 1px rgb(207, 192, 255));/* x,y,radius,color*/
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bannerleft{
+    color:var(--backgroundColor);
+    padding: 50px;
+}
+
+.greeting{
+    font-family: var(--cursive);
+    font-size:2rem;
+}
+
+.title{
+    font-family: var(--secondaryfont);
+    font-size: 5rem;
+}
+
+.desciption{
+    font-family: var(--secondaryfont);
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+.titlespan{
+    display:inline-block;
+    background:linear-gradient(235deg,black,rgb(44, 36, 71));
+    color:var(--backgroundColor);
+    padding:0.5rem;
+    margin:5px 0px;
+}
+
+a{
+    text-decoration: none;
+    color:var(--primaryAccentColor);
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+.showcv{
+    line-height: 2;
+    background: white;
+    margin:50px 0px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.showcv:hover{
+    font-weight: bolder;
+}
