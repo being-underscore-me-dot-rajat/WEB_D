@@ -50,13 +50,15 @@
     flex-grow: 2;
     align-items: center;
     margin-top: 14px;
+    justify-content: space-around;
 }
 
 .menuitem{
     margin-left: 80px;
-    padding: 80px;
+    padding: 50px;
     margin-top: 80px;
     align-items: center;
+    justify-content: space-around;
 }
 
 .logotitle{
@@ -78,6 +80,7 @@ body{
 }
 
 .banner{
+    margin-top: 20px;
     display:flex;
     height:450px;
     background: linear-gradient(235deg,rgb(207, 192, 255),black);
@@ -134,4 +137,78 @@ a:hover{
 
 .showcv:hover{
     font-weight: bolder;
+}
+
+.services{
+    margin:40px;
+}
+
+
+.servicetext{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.txtsubheading{
+    color:var(--secondaryColor);
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+}
+
+.txtheading{
+    color:var(--backgroundColor);
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.servicecards{
+    display: flex;
+    margin-top: 20px;
+    font-family:var(--secondaryfont);
+    font-size:1.2rem;
+    justify-content: space-around;
+}
+
+.servicecard{
+    background-color:var(--secondaryColor);
+    border-radius: 5px;
+    margin:10px;
+    padding:10px;
+    color:var(--backgroundColor);
+    font-family: var(--primaryFont);
+    font-size:rem;
+}
+
+.servicecard:hover{
+    filter:drop-shadow(1px 1px 10px black);
+}
+
+.material-symbols-outlined{
+    background-color: var(--backgroundColor);
+    color: var(--blaclColor);
+    padding:2px;
+    font-size: 3rem;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 1px black);
+    align-items: center;
+}
+
+.servicetitle{
+    font-size: 2rem;
+    color:var(--primaryAccentColor);
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: var(--secondaryfont);
+}
+
+.servftrsicons{
+    font-size: 0.8rem;
+    background-color: none;
+}
+
+.servfeaturetext{
+    font-family: var(--primaryFont);
+    font-weight:500;
+    color:var(--primaryColor);
+    text-align: center;
 }
