@@ -91,7 +91,9 @@ body{
 
 .bannerleft{
     color:var(--backgroundColor);
-    padding: 50px;
+    justify-content: space-around;
+    margin-left: 20px;
+    display: inline;
 }
 
 .greeting{
