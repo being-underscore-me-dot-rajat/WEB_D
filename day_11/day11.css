@@ -1,0 +1,47 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation: colorchanger 5s infinite;
+    border-radius: 100%;    
+    display: inline-block;
+}
+
+
+@keyframes colorchanger{
+    0%{
+        transform: translate(0px, 0px);
+    }
+
+    50%{
+        transform: translate(200px, 200px);
+    }
+
+    100%{
+        transform: translate(400px, 0px);
+    }
+}
+
+.otherbox{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation: colorchange 5s infinite;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+@keyframes colorchange{
+    0%{
+    transform: translate(300px, 0px);
+    }
+
+50%{
+    transform: translate(50px, 200px);
+}  
+
+100%{
+    transform: translate(-150px, 0px);
+    }
+}
